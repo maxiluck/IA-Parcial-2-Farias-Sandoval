@@ -70,8 +70,6 @@ public static class AStarPathfinding
         return new List<NavigationNode>();
     }
 
-    // Evalúa los accesos y salidas alcanzables para minimizar el trayecto completo,
-    // no solamente la distancia entre dos nodos elegidos por proximidad.
     public static List<NavigationNode> FindPathToPosition(
         Vector3 origin,
         Vector3 target,
@@ -101,8 +99,7 @@ public static class AStarPathfinding
                 goals.Add(node);
         }
 
-        // Si la posición recordada está en una zona inaccesible, nos acercamos
-        // al nodo transitable más próximo, como hacía la búsqueda anterior.
+        // Si el destino es inaccesible vamos al nodo transitable más cercano
         if (goals.Count == 0 && fallback != null)
             goals.Add(fallback);
 

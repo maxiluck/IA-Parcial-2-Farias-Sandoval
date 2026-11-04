@@ -1,6 +1,6 @@
 using UnityEngine;
 
-// Mismo orden que las celdas de status_atlas.png
+
 public enum StatusIcon
 {
     None = -1,

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-// Screen-space information is separate from the hunter's world-space effects.
+
 public sealed class HunterHudPanel
 {
     private readonly HunterAgent hunter;

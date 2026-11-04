@@ -5500,7 +5500,7 @@ MonoBehaviour:
   movementObstacles:
     serializedVersion: 2
     m_Bits: 520
-  bodyRadius: 0.6
+  bodyRadius: 0.55
 --- !u!114 &1076220168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7242,7 +7242,7 @@ MonoBehaviour:
   movementObstacles:
     serializedVersion: 2
     m_Bits: 520
-  bodyRadius: 0.6
+  bodyRadius: 0.55
 --- !u!114 &1403401466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7597,7 +7597,7 @@ MonoBehaviour:
   movementObstacles:
     serializedVersion: 2
     m_Bits: 520
-  bodyRadius: 0.6
+  bodyRadius: 0.55
 --- !u!114 &1421379245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9575,7 +9575,7 @@ MonoBehaviour:
   stoppingDistance: 0.15
   movementObstacles:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   bodyRadius: 0.5
 --- !u!114 &1810840001
 MonoBehaviour:
@@ -10114,7 +10114,7 @@ MonoBehaviour:
   movementObstacles:
     serializedVersion: 2
     m_Bits: 520
-  bodyRadius: 0.5
+  bodyRadius: 0.55
 --- !u!114 &1926008402
 MonoBehaviour:
   m_ObjectHideFlags: 0

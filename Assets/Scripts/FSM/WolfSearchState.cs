@@ -73,18 +73,7 @@ public class WolfSearchState : WolfState
 
     private void CalculateSearchPath()
     {
-        if (wolf.Movement.HasClearPath(lastKnownPosition))
-        {
-            wolf.PathFollower.StopFollowing();
-            wolf.Movement.MoveTo(lastKnownPosition);
-            routeFound = true;
-            finalApproachStarted = true;
-        }
-        else
-        {
-            routeFound = wolf.PathFollower.SetDestination(lastKnownPosition);
-        }
-
+        routeFound = wolf.PathFollower.SetDestination(lastKnownPosition);
         retryTimer = wolf.SearchRetryTime;
     }
 

@@ -1,6 +1,6 @@
 # IA · Parcial 2 · Percepción, grafos y pathfinding
 
-Proyecto de Unity 6000.3.17f1. Abrir la escena `Assets/Scenes/Simulation.unity` y darle Play.
+Proyecto de Unity 6000.3.17f1. Abrir la escena `Assets/Scenes/Simulation.unity`.
 
 ## Integrantes
 - Laureano Farias
